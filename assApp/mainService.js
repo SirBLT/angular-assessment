@@ -1,6 +1,6 @@
 angular.module('assessment')
 .service('mainService', function($http) {
-    var appUrl = 'http://practiceapi.devmounta.in/products'
+    var appUrl = 'http://practiceapi.devmounta.in/products/'
     
     this.getProducts = function () {
         return $http.get(appUrl)
